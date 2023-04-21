@@ -129,7 +129,7 @@ footer {
 }
 
 .icon-dcat {
-    content: url('icon.png');
+    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/icon.png');
     width: 30px;
     height: 30px;
     right: 10px;
