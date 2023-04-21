@@ -1,0 +1,520 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #008080;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main,
+header,
+footer {
+    z-index: 9999;
+    font-family: "Pixelated MS Sans Serif", Arial;
+}
+
+.instthr {
+    z-index: 9999;
+    padding: 3px;
+    width: 60px;
+    height: auto;
+}
+
+.instthr:focus {
+    border: 1px dotted white
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+
+.select {
+    border: 1px dotted white
+}
+
+.instthr p {
+    margin: 0;
+    margin-top: 7px;
+    color: white;
+    opacity: 85%;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+
+.selapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    padding: 2px
+}
+
+
+header {
+    min-height: 40px;
+}
+
+main {
+    min-height: 40px;
+    height: 100%;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    min-height: 40px;
+    background-color: #c3c3c3;
+    border-top: 2px solid whitesmoke;
+}
+
+
+.start {
+    margin-bottom: 1px;
+    margin-left: 3px;
+    padding: 0;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 3px;
+
+}
+
+.icon-dcat {
+    content: url('icon.png');
+    width: 30px;
+    height: 30px;
+    right: 10px;
+}
+
+.iconnonmute {
+    content: url('./icon/loudspeaker_rays.ico');
+    width: 22px;
+    margin-left: 4px;
+}
+
+
+
+
+.iconstal {
+    content: url('./icon/installer_generic_old.ico');
+    width: 40px;
+    margin-left: 4px;
+}
+
+.icon-sdown {
+    content: url('./icon/shut_down_normal.ico');
+    width: 35px;
+    margin-right: 10px;
+}
+
+.icon-logoff {
+    content: url('./icon/key_win.ico');
+    width: 35px;
+    margin-right: 10px;
+}
+
+.icon-lop {
+    content: url('./lop.png');
+    width: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.icon-about {
+    content: url('8d6f864fb9de925.png');
+    width: 46px;
+    margin-right: 10px;
+}
+
+.icon-ig {
+    content: url('igeh.png');
+    width: 25px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    margin-right: 10px;
+}
+
+.icon-wimed {
+    content: url('./icon/wm.ico');
+    width: 25px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    margin-right: 10px;
+}
+
+.icon-tele {
+    content: url('tele.jpg');
+    width: 25px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    margin-right: 10px;
+}
+
+.icon-install {
+    content: url('./icon/installer_generic_old.ico');
+    width: 25px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    margin-right: 10px;
+}
+
+.icon-installv3 {
+    content: url('./icon/installer_generic_old.ico');
+    width: 19px;
+    margin-right: 9px;
+}
+
+.frst {
+    display: flex;
+    flex-direction: row;
+}
+
+.tasdiv {
+    border-left: 2px solid rgb(128, 128, 128);
+    border-right: 2px solid rgb(223, 223, 223);
+    margin-left: 5px;
+}
+
+.tasdiv2 {
+    border-left: 2px solid rgb(128, 128, 128);
+    border-right: 2px solid rgb(223, 223, 223);
+    margin-right: 5px;
+}
+
+.thidi {
+    display: flex;
+    height: 35px;
+}
+
+.endcon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3px;
+    font-weight: 100px;
+    font-size: 15px;
+    min-width: 90px;
+    text-align: right;
+    padding-right: 5px;
+    box-shadow: inset -1px -1px #ffffff, inset 1px 1px #808080, inset -2px -2px #dfdfdf, inset 2px 2px #808080;
+}
+
+.winmod {
+    z-index: 9999;
+    width: 220px;
+    height: 410px;
+    position: absolute;
+    bottom: 41px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.watermark {
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 30%, rgba(9, 9, 121, 1) 65%);
+    color: white;
+    height: 100%;
+    width: 32px;
+    display: flex;
+    align-items: end;
+}
+
+.watermark p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+    writing-mode: vertical-lr;
+    transform: scale(-1, -1);
+
+    padding-top: 5px;
+}
+
+
+
+.biasa {
+    font-weight: normal;
+
+}
+
+
+.edisi {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.app-start {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.listapp {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li {
+    margin: 0;
+    width: 100%;
+}
+
+.pembatas {
+    border-top: 2px solid rgb(128, 128, 128);
+    border-bottom: 2px solid rgb(223, 223, 223);
+    margin-left: 3px;
+    margin-right: 4px;
+}
+
+.batas {
+    padding: 0 0;
+}
+
+.shutbut {
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.shutbut:active {
+    box-shadow: inset -1px -1px #ffffff, inset 1px 1px #808080, inset -2px -2px #dfdfdf, inset 2px 2px #808080;
+}
+
+.ctapp {
+    top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.hehe {
+    width: 500px;
+    height: 60%;
+}
+
+.duarr {
+    display: flex;
+    height: 90%;
+}
+
+.bg {
+    width:30%;
+    margin-right: 10px;
+    background: url("kocheng.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.aas {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    padding-left: 9px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin-top: auto;
+    align-self: end;
+    margin-right: 3px;
+    margin-bottom:3px ;
+}
+
+.mod label {
+    font-size: 10px;
+}
+
+.mod {
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-right:10px;
+}
+
+.konfrem {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.seccon {
+    width: 100%;
+    display: flex;
+    margin-left: 8px;
+    justify-content: start;
+    align-items: center;
+}
+
+.activwin {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 18px;
+    height: 30px;
+}
+
+.activwin:active {
+    box-shadow: inset -1px -1px #ffffff, inset 1px 1px #808080, inset -2px -2px #dfdfdf, inset 2px 2px #808080;
+}
+
+.borderaktiv {
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+}
+
+.borderinac {
+    box-shadow: inset -1px -1px #ffffff, inset 1px 1px #808080, inset -2px -2px #dfdfdf, inset 2px 2px #808080;
+}
+
+.nuuun {
+    display: none !important;
+}
+
+.eboud {
+    width: 400px;
+}
+
+.reorder {
+    height: 160px;
+}
+
+.xixi {
+    margin: 0;
+    margin-left: 6px;
+}
+
+.remod {
+    display: flex;
+    align-items: center;
+}
+
+.hehbe {
+    border: 1px solid ;
+}
+
+.hehbe p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.scloud {
+    width: 310px;
+}
+
+iframe {
+    width: 310px;
+    height: 100px;
+}
+
+.meter {
+    position: relative;
+    box-shadow: var(--border-field);
+    padding: 3px 3px 3px 3px;
+    border: none;
+    background-color: var(--button-highlight);
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+  }
+  
+  .meter > div {
+    background-image:url("block.png");
+    background-repeat: round;
+    width: 30%;
+    height:20px;
+    z-index: 1;
+  }
+  
+.mod2 {
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-right:10px;
+}
+
+.modlod {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-left: 3px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.modlod2 {
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 5px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.restrl {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.end {
+    width: 30%;
+}
