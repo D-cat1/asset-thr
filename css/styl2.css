@@ -136,7 +136,7 @@ footer {
 }
 
 .iconnonmute {
-    content: url('./icon/loudspeaker_rays.ico');
+    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/loudspeaker_rays.ico');
     width: 22px;
     margin-left: 4px;
 }
@@ -145,32 +145,32 @@ footer {
 
 
 .iconstal {
-    content: url('./icon/installer_generic_old.ico');
+    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/installer_generic_old.ico');
     width: 40px;
     margin-left: 4px;
 }
 
 .icon-sdown {
-    content: url('./icon/shut_down_normal.ico');
+    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/shut_down_normal.ico');
     width: 35px;
     margin-right: 10px;
 }
 
 .icon-logoff {
-    content: url('./icon/key_win.ico');
+    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/key_win.ico');
     width: 35px;
     margin-right: 10px;
 }
 
 .icon-lop {
-    content: url('./lop.png');
+    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/lop.png');
     width: 10px;
     margin-left: 3px;
     margin-right: 3px;
 }
 
 .icon-about {
-    content: url('8d6f864fb9de925.png');
+    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/8d6f864fb9de925.png');
     width: 46px;
     margin-right: 10px;
 }
@@ -186,7 +186,7 @@ footer {
 }
 
 .icon-wimed {
-    content: url('./icon/wm.ico');
+    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/icon/wm.ico');
     width: 25px;
     padding-left: 8px;
     padding-top: 8px;
@@ -196,7 +196,7 @@ footer {
 }
 
 .icon-tele {
-    content: url('tele.jpg');
+    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/tele.jpg');
     width: 25px;
     padding-left: 8px;
     padding-top: 8px;
@@ -206,7 +206,7 @@ footer {
 }
 
 .icon-install {
-    content: url('./icon/installer_generic_old.ico');
+    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/installer_generic_old.ico');
     width: 25px;
     padding-left: 8px;
     padding-top: 8px;
@@ -216,7 +216,7 @@ footer {
 }
 
 .icon-installv3 {
-    content: url('./icon/installer_generic_old.ico');
+    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/installer_generic_old.ico');
     width: 19px;
     margin-right: 9px;
 }
@@ -365,7 +365,7 @@ li {
 .bg {
     width:30%;
     margin-right: 10px;
-    background: url("kocheng.jpeg");
+    background: url("https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/kocheng.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100%;
@@ -500,7 +500,7 @@ iframe {
   }
   
   .meter > div {
-    background-image:url("block.png");
+    background-image:url("https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/block.png");
     background-repeat: round;
     width: 30%;
     height:20px;
