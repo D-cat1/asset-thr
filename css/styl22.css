@@ -176,7 +176,7 @@ footer {
 }
 
 .icon-ig {
-    content: url('igeh.png');
+    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/igeh.png');
     width: 25px;
     padding-left: 8px;
     padding-top: 8px;
@@ -186,7 +186,7 @@ footer {
 }
 
 .icon-wimed {
-    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/icon/wm.ico');
+    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/wm.ico');
     width: 25px;
     padding-left: 8px;
     padding-top: 8px;
