@@ -13,6 +13,8 @@ body {
 
 }
 
+
+
 main,
 header,
 footer {
@@ -25,6 +27,26 @@ footer {
     padding: 3px;
     width: 60px;
     height: auto;
+}
+
+.loadpage {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 10000;
+    background-color: #008080;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.loadpage p {
+    font-family: "Pixelated MS Sans Serif";
 }
 
 .instthr:focus {
@@ -107,14 +129,14 @@ footer {
 }
 
 .icon-dcat {
-    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/icon.png');
+    content: url('icon.png');
     width: 30px;
     height: 30px;
     right: 10px;
 }
 
 .iconnonmute {
-    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/loudspeaker_rays.ico');
+    content: url('./icon/loudspeaker_rays.ico');
     width: 22px;
     margin-left: 4px;
 }
@@ -123,38 +145,38 @@ footer {
 
 
 .iconstal {
-    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/installer_generic_old.ico');
+    content: url('./icon/installer_generic_old.ico');
     width: 40px;
     margin-left: 4px;
 }
 
 .icon-sdown {
-    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/shut_down_normal.ico');
+    content: url('./icon/shut_down_normal.ico');
     width: 35px;
     margin-right: 10px;
 }
 
 .icon-logoff {
-    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/key_win.ico');
+    content: url('./icon/key_win.ico');
     width: 35px;
     margin-right: 10px;
 }
 
 .icon-lop {
-    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/lop.png');
+    content: url('./lop.png');
     width: 10px;
     margin-left: 3px;
     margin-right: 3px;
 }
 
 .icon-about {
-    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/8d6f864fb9de925.png');
+    content: url('8d6f864fb9de925.png');
     width: 46px;
     margin-right: 10px;
 }
 
 .icon-ig {
-    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/igeh.png');
+    content: url('igeh.png');
     width: 25px;
     padding-left: 8px;
     padding-top: 8px;
@@ -164,7 +186,7 @@ footer {
 }
 
 .icon-wimed {
-    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/wm.ico');
+    content: url('./icon/wm.ico');
     width: 25px;
     padding-left: 8px;
     padding-top: 8px;
@@ -174,7 +196,7 @@ footer {
 }
 
 .icon-tele {
-    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/tele.jpg');
+    content: url('tele.jpg');
     width: 25px;
     padding-left: 8px;
     padding-top: 8px;
@@ -184,7 +206,7 @@ footer {
 }
 
 .icon-install {
-    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/installer_generic_old.ico');
+    content: url('./icon/installer_generic_old.ico');
     width: 25px;
     padding-left: 8px;
     padding-top: 8px;
@@ -194,7 +216,7 @@ footer {
 }
 
 .icon-installv3 {
-    content: url('https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/installer_generic_old.ico');
+    content: url('./icon/installer_generic_old.ico');
     width: 19px;
     margin-right: 9px;
 }
@@ -343,7 +365,7 @@ li {
 .bg {
     width:30%;
     margin-right: 10px;
-    background: url("https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/kocheng.jpeg");
+    background: url("kocheng.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100%;
@@ -478,7 +500,7 @@ iframe {
   }
   
   .meter > div {
-    background-image:url("https://cdn.jsdelivr.net/gh/D-cat1/asset-thr@master/image/block.png");
+    background-image:url("block.png");
     background-repeat: round;
     width: 30%;
     height:20px;
@@ -518,3 +540,5 @@ iframe {
 .end {
     width: 30%;
 }
+
+
