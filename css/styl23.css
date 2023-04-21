@@ -26,6 +26,7 @@ footer {
     z-index: 9999;
     padding: 3px;
     width: 60px;
+    margin: 5px;
     height: auto;
 }
 
@@ -108,7 +109,6 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: auto;
     min-height: 40px;
     background-color: #c3c3c3;
     border-top: 2px solid whitesmoke;
