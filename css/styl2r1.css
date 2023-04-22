@@ -543,3 +543,15 @@ iframe {
 }
 
 
+.tesro {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 5px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
