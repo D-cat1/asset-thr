@@ -31,21 +31,9 @@ const addthr = async (nom, tp) => {
     return getjson.success
 }
 
-const mhank = document.getElementById('ahihi');
 const mhenk = document.getElementById('next');
 const isikonten = document.getElementById('konthr')
 
-mhank.addEventListener('click', () => {
-    const winthr = document.getElementById('winthr')
-    if (winthr.classList.contains('nuuun')) {
-        winthr.classList.remove('nuuun')
-        if (hitungstep == 0) {
-            isikonten.innerHTML = json_thr.display1
-        } else if (hitungstep == 1) {
-            isikonten.innerHTML = json_thr.display2
-        }
-    }
-})
 
 function minus() {
     hitungstep--
